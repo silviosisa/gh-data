@@ -38,7 +38,7 @@ jobs:
     steps:
       - name: Get build artifacts
         uses: actions/download-artifact@v3
-        widh:
+        with:
           name: dist-files
       - name: Output contents ls
         run:  ls
